@@ -1,0 +1,27 @@
+
+
+header {
+	
+	background:#bbbbbb;}
+
+h1 {
+	text-align:left;
+	text-transform: lowercase;
+	color:#ff00ff;}
+
+h2 {
+	color:#123321;
+	text-transform: lowercase;}
+	
+a {
+	color:#111111;
+	background:#eeeeee;
+	text-align:center;}
+
+aside {
+	visibility:visible;
+	display:none;}
+
+section {
+	background:#123456;}
+
