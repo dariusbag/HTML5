@@ -37,14 +37,52 @@ margin: 0 auto;
 margin-top: 20px;
 margin-bottom: 20px;
 }
+table{
+width: 80%;
+margin: auto;
+text-align: center;
+line-height: 40px;
+font-weight: bold;
+}
+th:first-child, td:first-child{
+text-align: left;
+padding-left: 10px;
+}
+th{
+border-radius: 5px 5px 0 0;
+color: #CCFFAA;
+border-bottom: solid 5px #115511;
+font-size: 20px;
+
+background: #447744; /* For browsers that do not support gradients */
+background: -webkit-linear-gradient(#88AA88, #447744, #88AA88); /* For Safari 5.1 to 6.0 */
+background: -o-linear-gradient(#88AA88, #447744, #A88AA88); /* For Opera 11.1 to 12.0 */
+background: -moz-linear-gradient(#88AA88, #447744, #88AA88); /* For Firefox 3.6 to 15 */
+background: linear-gradient(#88AA88, #447744, #88AA88); /* Standard syntax */
+}
+td{
+background-color: #CCCCCC;
+color: #000080;
+font-family: georgia, arial;
+font-style: italic;
+}
+tr{
+opacity: 0.6;
+}
+tr:first-child{
+opacity: 1;
+}
+tr:hover{
+opacity: 1;
+}
 .active{
 opacity: 1;
 color: #111111;
 }
 .left{
 position: relative;
-height:100%;
-background-color: #EEEEEE;
+height:100vh;
+background-color: #DDDDDD;
 width: 25%;
 float: left;
 bottom: 0%;
